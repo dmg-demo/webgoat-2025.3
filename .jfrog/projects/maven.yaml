@@ -1,10 +1,10 @@
 version: 1
 type: maven
 resolver:
-    serverId: solengdemo
+    serverId: dylanmo
     snapshotRepo: dylanmo-dev-libs-snapshot
     releaseRepo: dylanmo-dev-libs-release
 deployer:
-    serverId: solengdemo
-    snapshotRepo: dylanmo-dev-libs-snapshot-local
-    releaseRepo: dylanmo-dev-libs-release-local
+    serverId: dylanmo
+    snapshotRepo: dylanmo-dev-libs-snapshot
+    releaseRepo: dylanmo-dev-libs-release
